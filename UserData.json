@@ -10,7 +10,18 @@
         "UniqueId": "b120dd8a-5cb0-4f54-9062-d9fa5afa61b1",
         "username": "mahawan",
         "password": "porkchop",
-        "Balance": 1500,
-        "OwnedCoins": {}
+        "Balance": 9522.399999999998,
+        "OwnedCoins": {
+            "|\ud83c\udf31| TerraGreen(TGR)": {
+                "name": "|\ud83c\udf31| TerraGreen(TGR)",
+                "baseprice": 11.2,
+                "ammount": 1000
+            },
+            "|\ud83c\udf19| LunaMint(LMT)": {
+                "name": "|\ud83c\udf19| LunaMint(LMT)",
+                "baseprice": 11.2,
+                "ammount": 4
+            }
+        }
     }
 ]

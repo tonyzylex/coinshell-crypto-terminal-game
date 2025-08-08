@@ -5,6 +5,7 @@ class Coin():
     def __init__(self, name, baseprice = 11.2):
         self.name = name
         self.baseprice = baseprice
+        self.ammount = None
     def Fluctate(self):
         self.fluctationVal = round(random.uniform(-1, 1) * 100,2) # change in percentage
         if self.baseprice == 0:
@@ -21,6 +22,12 @@ class Coin():
             "FluctationPercentage": f"%{self.fluctationVal}",
             "ChangedPrice": self.ChangedPrice
         }
+    def CoinDict(self):
+        return{
+        "name": self.name,
+        "baseprice": self.baseprice,
+        "ammount": self.ammount
+    }
     
 
 

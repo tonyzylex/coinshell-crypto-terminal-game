@@ -69,6 +69,9 @@ class User():
 
     def GetUniId(self):
         return self.__UniqueId
+    
+    def GetPassword(self):
+        return self.__password
 
     def LoadData(self,data_dict):
         self.__UniqueId = data_dict["UniqueId"]
