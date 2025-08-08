@@ -1,0 +1,16 @@
+[
+    {
+        "UniqueId": "c8960d3f-b907-4cae-935e-fc87f624ad69",
+        "username": "jopay",
+        "password": "kumustakana",
+        "Balance": 1500,
+        "OwnedCoins": {}
+    },
+    {
+        "UniqueId": "b120dd8a-5cb0-4f54-9062-d9fa5afa61b1",
+        "username": "mahawan",
+        "password": "porkchop",
+        "Balance": 1500,
+        "OwnedCoins": {}
+    }
+]
